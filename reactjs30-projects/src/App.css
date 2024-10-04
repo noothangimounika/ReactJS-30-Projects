@@ -55,3 +55,279 @@
   border-radius: 10px;
 
 }
+
+
+.CalculatorApp-container{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  /* background: linear-gradient(140deg,rgb(243, 164, 18),rgb(238, 166, 33)); */
+}
+.CalculatorApp{
+  padding: 20px;
+  border: 2px black solid;
+  border-radius: 10px;
+  background-color: white;
+ 
+}
+.CalculatorApp form input{
+  border: none;
+  outline: 0;
+  width: 60px;
+  height: 60px;
+  font-size: 20px;
+  background-color: rgb(247, 162, 6) ;
+  margin: 2px;
+  color: white;
+  font-weight: bolder;
+  border-radius: 10px;
+  cursor: pointer;
+ 
+}
+.input-display{
+  /* width:290px; */
+  border-radius:'10px';
+  display: flex;
+  justify-content: flex-end;
+  margin: 5px 0px 15px 0px;
+}
+.input-display input{
+  text-align: right;
+  flex: 1;
+  font-size: 40px;
+  padding: 5px 10px;
+}
+#form-button{
+  transition: all 0.5s ease;
+  margin:  7px;
+  font-size: 18px;
+}
+#form-button:hover{
+  background-color: rgb(240, 238, 238);
+  color: black;
+
+}
+
+
+
+
+
+* App.css */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+} */
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #333;
+}
+.timer-container {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+input[type="number"] {
+  width: 60px;
+  padding: 10px;
+  margin: 0 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+  text-align: center;
+}
+
+input[type="number"]:focus {
+  border-color: #007bff;
+  outline: none;
+}
+button {
+  padding: 10px 15px;
+  margin: 0 5px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  background-color: #007bff;
+  color: white;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+@media (max-width: 600px) {
+  h1 {
+    font-size: 2rem;
+  }
+
+  input[type="number"], button {
+    width: 100%;
+    margin: 5px 0;
+  }
+}
+
+
+
+.ToDoList-Container{
+  text-align: center;
+  margin-top: 100px;
+ 
+}
+.ToDoList-Container h1{
+  font-size: 4rem;
+}
+.ToDoList-Container button{
+  font-size: 1.3rem;
+  font-weight: bold;
+  margin-top: 20px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.5s ease;
+  
+}
+
+
+.button-add{
+  background-color: hsl(125,47%,54%);
+  transition: all 0.5s ease;
+
+}
+.button-add:hover{
+  background-color: hsl(125,47%,44%);
+}
+
+
+.delete-button{
+  background-color: hsl(10,47%,50%);
+  transition: all 0.5s ease;
+}
+.delete-button:hover{
+  background-color: hsl(10,47%,40%);
+}
+
+
+.move-button{
+  background-color: hsl(207,90%,64%);
+  transition: all 0.5s ease;
+}
+.move-button:hover{
+  background-color: hsl(207,90%,54%);
+}
+#inpuText{
+  font-size: 1.6rem;
+  padding: 10px;
+  border: 2px solid hsla(0,0%,80%,0.5);
+  border-radius: 5px;
+  color: hsla(0, 0%, 0%, 0.5);
+}
+.ToDoList-Container ol{
+  padding: 0;
+}
+.ToDoList-Container li{
+  font-size: 2rem;
+  font-weight: bold;
+  padding: 15px;
+  background-color: hsla(0, 0%, 97%);
+  margin-bottom: 10px;
+  border: 3px solid hsla(0, 0%, 85%, 0.75);
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+}
+.text{
+  flex: 1;
+  /* flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: 0%; */
+}
+.delete-button, .move-button{
+  padding: 8px 12px;
+  font-size: 1.4rem;
+  margin-left: 10px;
+}
+
+
+
+/* DynamicBackground.css */
+
+.background-box {
+  width: 100%;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: background-color 0.5s ease;
+}
+
+h1 {
+  color: rgb(0, 0, 0);
+  font-size: 1.5em;
+  text-align: center;
+  user-select: none;
+}
+
+
+
+
+
+/* Styling the quote container */
+.quote-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f5f5f5;
+}
+
+/* Styling the quote box */
+.quote-box {
+  background-color: white;
+  border: 2px solid #ccc;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  width: 80%;
+  max-width: 500px;
+}
+
+/* Styling the quote text */
+.quote-text {
+  font-size: 1.5em;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Styling the button */
+.quote-button {
+  background-color: #008cba;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1em;
+}
+
+.quote-button:hover {
+  background-color: #005f6b;
+}
