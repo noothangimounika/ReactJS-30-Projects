@@ -1,0 +1,40 @@
+/* Styling for the search container */
+.search-container {
+    width: 300px;
+    margin: 50px auto;
+    text-align: center;
+  }
+  
+  .search-bar {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  /* Styling for the item list */
+  .item-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .item {
+    padding: 10px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    margin-bottom: 5px;
+    border-radius: 5px;
+  }
+  
+  /* No results message */
+  .no-results {
+    padding: 10px;
+    background-color: #f9d3d3;
+    border: 1px solid #e1a1a1;
+    border-radius: 5px;
+    color: #b43b3b;
+  }
+  

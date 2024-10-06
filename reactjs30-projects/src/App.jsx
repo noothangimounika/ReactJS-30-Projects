@@ -16,9 +16,19 @@ import FirstPage from './Components/rounting/FirstPage';
 import SecondPage from './Components/rounting/SecondPage';
 import ThirdPage from './Components/rounting/ThirdPage';
 import FourthPage from './Components/rounting/FourthPage';
-import { Routes,Route } from 'react-router-dom';
+
 import RandomQuoteGenerator from './Components/RandomQuoteGenerator';
 import FileUploader from './Components/FileUploader';
+
+import { BrowserRouter,Link,NavLink,Routes,Route } from 'react-router-dom';
+import About from './rountingPages/About';
+import Home from './rountingPages/Home';
+import Contact from './rountingPages/Contact';
+import User from './rountingPages/User';
+import Courses from './rountingPages/Courses';
+import NavBar from './rountingPages/NavBar';
+import Weather from './WeatherAppComponents/Weather';
+import SearchBar from './SearchBarComponents/SearchBar';
 
 
 
@@ -27,12 +37,18 @@ const App = () => {
 
     <div>
 
-      {/* <Routes>
-          <Route path='/abc' element={<FirstPage />} />
-          <Route path='/xyz' element={ <SecondPage />} />
+      {/* <BrowserRouter>
+        <NavBar />
+      <Routes>
 
-          
-      </Routes> */}
+        <Route path='/' element={<Home />}></Route>
+        <Route path='/About' element={<About />}></Route>
+        <Route path='/Courses' element={<Courses />}></Route>
+        <Route path='/Contact' element={<Contact />}></Route>
+        <Route path='/User' element={<User />}></Route>
+
+      </Routes>
+      </BrowserRouter> */}
       
       {/* <FirstPage />
       <SecondPage />
@@ -48,12 +64,18 @@ const App = () => {
       <ToggleSwitch />
       <FetchData /> */}
 
-      <CalculatorApp />
+      {/* <CalculatorApp />
       <TimerApp />
       <ToDoList />
       <DynamicBackground />
       <RandomQuoteGenerator />
-      <FileUploader />
+      <FileUploader /> */}
+
+      
+
+        {/* <Weather /> */}
+        <SearchBar />
+      
     </div>
   )
 }
