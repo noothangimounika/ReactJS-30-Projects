@@ -29,6 +29,13 @@ import Courses from './rountingPages/Courses';
 import NavBar from './rountingPages/NavBar';
 import Weather from './WeatherAppComponents/Weather';
 import SearchBar from './SearchBarComponents/SearchBar';
+import ChatApp from './Real-timeChatAppComponent/ChatApp';
+import DragAndDropList from './Drag-and-DropComponent/DragAndDropList';
+import ImageCarousel from './ImageCarouseComponet/ImageCarouse';
+import MultiForm from './Multi-StepFormComponent/MutliForm';
+import Pagination from './PaginationComponent/Pagination';
+import ColorPicker from './ColourPickerComponent/ColourPicker';
+import NavigationMenu from './NavigationMenuComponent/NavigationMenu';
 
 
 
@@ -73,9 +80,20 @@ const App = () => {
 
       
 
-        {/* <Weather /> */}
-        <SearchBar />
-      
+        {/* <Weather />
+        <SearchBar /> */}
+
+
+        
+
+        {/* <DragAndDropList /> */}
+
+        {/* <ChatApp />
+        <ImageCarousel />
+        <MultiForm /> */}
+        {/* <Pagination /> */}
+        {/* <ColorPicker /> */}
+         <NavigationMenu />
     </div>
   )
 }

@@ -1,0 +1,41 @@
+/* src/ImageCarousel.css */
+.carousel {
+    position: relative;
+    max-width: 600px;
+    margin: auto;
+    overflow: hidden;
+  }
+  
+  .carousel-images {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  .slide {
+    min-width: 100%;
+    transition: opacity 1s ease;
+    opacity: 0;
+  }
+  
+  .slide.active {
+    opacity: 1;
+  }
+  
+  .arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 2rem;
+    color: white;
+    cursor: pointer;
+    z-index: 100;
+  }
+  
+  .left {
+    left: 10px;
+  }
+  
+  .right {
+    right: 10px;
+  }
+  

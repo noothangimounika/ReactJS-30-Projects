@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.Table-container{
+    width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  font-size: 18px;
+  text-align: left;
+}
+.Table-container th,
+.Table-container td{
+    padding: 12px 15px;
+    border: 1px solid #dddddd; /* Light grey border */
+  
+}
+.Table-container th{
+    background-color: #f2f2f2; /* Light grey background */
+    color: #333; /* Dark text */
+}
+.Table-container tr:nth-child(even) {
+    background-color: #f9f9f9; /* Light background for even rows */
+  }
+  
+  .Table-container tr:hover {
+    background-color: #f1f1f1; /* Light background on hover */
+  }
+  
+  .Table-container {
+    cursor: pointer; /* Change cursor to pointer for table headers */
+  }
